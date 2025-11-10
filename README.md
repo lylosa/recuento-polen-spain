@@ -23,3 +23,6 @@ Si reutilizas este trabajo, por favor atribuye de la siguiente forma:
 > **Licencia:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ![Licencia CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17575435.svg)](https://doi.org/10.5281/zenodo.17575435)
