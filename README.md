@@ -3,6 +3,10 @@
 Este proyecto se realiza en el marco de las prácticas de la asignatura _Tipología y Ciclo de Vida de los Datos_ perteneciente al **Máster universitario en Ciencia de Datos** de la UOC.
 Se centra en la obtención y publicación de un conjunto de datos en formato reutilizable y abierto obtenido a partir de la web [https://wwww.polenes.com](https://www.polenes.com/home). Esta web permite consultar de forma gráfica los niveles de pólenes de diferentes tipos de plantas alergénicas por provincias y ubicaciones en España. Ofrece comparaciones y series históricas, pero no es posible descargar los datos para su explotación.
 
+## Codigo
+El código anexado en esta versión está en formato Jupyter Notebook, pensado para ejecutar en el navegador. 
+Una posible evolución, a implementar en futuras versiones, contemplaría la modularización y paquetización de este código para facilitar el mantenimiento y mejorar el rendimiento mediante su ejecución directamente sobre máquina.
+
 ## Conjunto de datos
 
 
