@@ -16,8 +16,8 @@ El dataset obtenido contiene los siguientes campos:
 * Polen: tipo de polen medido (ej. Gramineas, Olea, Cupresáceas...)
 * Acumulado: valor tal como aparece en la web (texto)
 * Acumulado_num: valor numérico normalizado (float) para análisis cuantitativo
-* Periodo de tiempo: en el proyecto se extrajeron semanas desde septiembre hasta octubre de 2025 (ejemplo).
 
+Periodo de tiempo: en el proyecto se extrajeron semanas desde septiembre hasta octubre de 2025 (ejemplo). 
 El intervalo es configurable en el script para cualquier periodo disponible en la web. El código subido está parametrizado por semanas (intervalos de 7 días) para cubrir la temporada y evitar solapamientos. Esto se configura en la función recorrer_semanas_septiembre_octubre_2025, donde en la variable fecha.
 
 ## Licencia
