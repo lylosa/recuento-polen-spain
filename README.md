@@ -8,7 +8,17 @@ El código anexado en esta versión está en formato Jupyter Notebook, pensado p
 Una posible evolución, a implementar en futuras versiones, contemplaría la modularización y paquetización de este código para facilitar el mantenimiento y mejorar el rendimiento mediante su ejecución directamente sobre máquina.
 
 ## Conjunto de datos
+El dataset obtenido contiene los siguientes campos:
+* Estación: nombre textual de la estación (p. ej. "Alicante")
+* Desde: fecha de inicio del intervalo (DD/MM/YYYY)
+* Hasta: fecha final del intervalo (DD/MM/YYYY)
+* Semana: número ISO de la semana (dos dígitos)
+* Polen: tipo de polen medido (ej. Gramineas, Olea, Cupresáceas...)
+* Acumulado: valor tal como aparece en la web (texto)
+* Acumulado_num: valor numérico normalizado (float) para análisis cuantitativo
+* Periodo de tiempo: en el proyecto se extrajeron semanas desde septiembre hasta octubre de 2025 (ejemplo).
 
+El intervalo es configurable en el script para cualquier periodo disponible en la web. El código subido está parametrizado por semanas (intervalos de 7 días) para cubrir la temporada y evitar solapamientos. Esto se configura en la función recorrer_semanas_septiembre_octubre_2025, donde en la variable fecha.
 
 ## Licencia
 
